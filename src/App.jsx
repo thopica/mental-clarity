@@ -183,7 +183,7 @@ export default function AppShell() {
               >
                 <XMarkIcon className="w-6 h-6" />
               </button>
-              <div className="mt-8">
+              <div className="mt-8 mb-1">
                 <p className="text-sm text-gray-300 font-semibold">
                   {new Date(selectedEntry.created_at).toLocaleString("de-DE")}
                 </p>
